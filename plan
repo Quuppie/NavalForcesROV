@@ -1,0 +1,7 @@
+combine servo code with joystick code (imports, etc)
+
+remember deadzone
+
+0-deadzone = 0-45 degrees
+deadzone - 255 = 46 to 90 
+
