@@ -63,7 +63,8 @@ while True:
 
 #while True:
     print "let's hope this thing works"
-     ins = 'last["ABS_Z"]'
+    print last["ABS_Z"]
+    #print (ins)
 #    inp = raw_input()
 #    SetAngle(int(inp)) 
 #    SetAngle(int(last["ABS_Z"]))  #It looks like we can't have parentheses and brackets enclosing each other, because it does some sort of super function
