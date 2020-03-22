@@ -35,13 +35,13 @@ deaddn = 132
 
 
 
-def SetAngle(angle):
-    duty = angle / 18 + 2
-    GPIO.output(03, True)
-    pwm.ChangeDutyCycle(duty)
-    time.sleep(1)
-    GPIO.output(03, False)
-    pwm.ChangeDutyCycle(0)
+#def SetAngle(angle):
+ #   duty = angle / 18 + 2
+  #  GPIO.output(03, True)
+  #  pwm.ChangeDutyCycle(duty)
+  #  time.sleep(1)
+   # GPIO.output(03, False)
+   # pwm.ChangeDutyCycle(0)
 
 while True:
     i=GPIO.input(15)                         #Reading output of right IR sensor
@@ -75,12 +75,9 @@ GPIO.cleanup()
 
 
 last = {
-    "ABS_RZ": 128,
+
     "ABS_Z": 128,
-    "ABS_HAT0Y": 128,
-    "ABS_HAT0X": 128,
-    "ABS_Y": 128,
-    "ABS_X": 128
+
 }
 for event in gamepad.read_loop(): 
     if event.type == ecodes.EV_ABS: 
