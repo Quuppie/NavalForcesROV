@@ -64,8 +64,8 @@ while True:
 #while True:
     print "type a number - 0, 30 ,38, 60,76, 90"
     inp = raw_input()
-    SetAngle(int(inp))
-
+#    SetAngle(int(inp))
+    SetAngle(int(last["ABS_Z"]))
 
 pwm.stop()
 
