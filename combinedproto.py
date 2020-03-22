@@ -43,23 +43,7 @@ deaddn = 132
    # GPIO.output(03, False)
    # pwm.ChangeDutyCycle(0)
 
-while True:
-    i=GPIO.input(15)                         #Reading output of right IR sensor
-    j=GPIO.input(37)  
-    y=GPIO.input(19)
-    if i==1:                                #Left IR sensor detects an object
-        print("Obstacle detected on Left"),i
-#        SetAngle(10)
-        time.sleep(0.1)
-    if j==1:                                #Right IR sensor detects an object
-        print("Obstacle detected on Right"),j
-#        SetAngle(90)
-        time.sleep(0.1)
 
-    if y==1:                                #Middle IR sensor detects an object
-        print("Maintain heading"),y
-#        SetAngle(50)
-        time.sleep(0.1)
 
 #while True:
     print "let's hope this thing works"
