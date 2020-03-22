@@ -63,11 +63,11 @@ while True:
 
 #while True:
     print "let's hope this thing works"
-    dot = 'last["ABS_Z"]'
+     ins = 'last["ABS_Z"]'
 #    inp = raw_input()
 #    SetAngle(int(inp)) 
 #    SetAngle(int(last["ABS_Z"]))  #It looks like we can't have parentheses and brackets enclosing each other, because it does some sort of super function
-    SetAngle("dot")
+    SetAngle("ins")
 pwm.stop()
 
 GPIO.cleanup()
