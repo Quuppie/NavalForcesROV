@@ -52,13 +52,13 @@ while True:
         SetAngle(10)
         time.sleep(0.1)
     if j==1:                                #Right IR sensor detects an object
-                print("Obstacle detected on Right"),j
-                SetAngle(90)
+        print("Obstacle detected on Right"),j
+        SetAngle(90)
         time.sleep(0.1)
 
     if y==1:                                #Middle IR sensor detects an object
-                print("Maintain heading"),y
-                SetAngle(50)
+        print("Maintain heading"),y
+        SetAngle(50)
         time.sleep(0.1)
 
 #while True:
