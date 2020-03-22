@@ -62,11 +62,12 @@ while True:
         time.sleep(0.1)
 
 #while True:
-    print "type a number - 0, 30 ,38, 60,76, 90"
-    inp = raw_input()
-#    SetAngle(int(inp))
-    SetAngle(int(last["ABS_Z"]))
-
+    print "let's hope this thing works"
+    dot = last["ABS_Z"]
+#    inp = raw_input()
+#    SetAngle(int(inp)) 
+#    SetAngle(int(last["ABS_Z"]))  #It looks like we can't have parentheses and brackets enclosing each other, because it does some sort of super function
+    SetAngle("dot")
 pwm.stop()
 
 GPIO.cleanup()
