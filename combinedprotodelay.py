@@ -11,6 +11,7 @@ import time
 os.system ("sudo pigpiod") #Launching GPIO library
 time.sleep(1) # As i said it is too impatient and so if this delay is removed you will get an error
 
+#recentvalue = stickvalue
 GPIO.setmode(GPIO.BOARD)
 
 GPIO.setup(03, GPIO.OUT)
@@ -38,13 +39,13 @@ deaddn = 132
 
 def SetAngle(angle):
     duty = angle / 18 + 2
-    print "duty is: " + str(duty)
     GPIO.output(03, True)
     pwm.ChangeDutyCycle(duty)
     time.sleep(.1)
     GPIO.output(03, False)
     pwm.ChangeDutyCycle(0)
-
+	
+    pwm.stop()
 #for a in [10,20,30,40,50,60]:
 #	SetAngle(a)
 #a = ""
@@ -60,7 +61,6 @@ print "let's hope this thing works"
 #    SetAngle(int(inp)) 
 #    SetAngle(int(last["ABS_Z"]))  #It looks like we can't have parentheses and brackets enclosing each other, because it does some sort of super function
 #    SetAngle("ins")
-pwm.stop()
 
 
 
@@ -71,7 +71,6 @@ last = {
 }
 eventcounter = 0
 delayconfig = 10
-recentvalue = 0
 for event in gamepad.read_loop(): 
     if event.type == ecodes.EV_ABS: 
         absevent = categorize(event) 
@@ -80,21 +79,32 @@ for event in gamepad.read_loop():
   
 
         if last["ABS_Z"] > deadr: #and eventcounter % 5 == 0: 
-#            print 'r_right' 
-            #print last["ABS_Z"] 
+            print 'r_right' 
+            print last["ABS_Z"] 
             eventcounter = 0
         elif last["ABS_Z"] < deadl: #and eventcounter % 5 == 0: 
-#            print 'r_left' 
-#            print last["ABS_Z"]
+            print 'r_left' 
+            print last["ABS_Z"]
             eventcounter = 0
         #eventcounter = eventcounter + 1 
 	#print ("eventcounter: " + str(eventcounter))
         #print ("Angle: " + str(eventcounter))
 	#making a variable holding the value thingy
 	stickvalue = (int(last["ABS_Z"]))
-        if abs(stickvalue - recentvalue) > 10: 
-	  SetAngle(int(stickvalue / 2.83))    
-          recentvalue = stickvalue
+	#so, here I'm trying to make a delay variable thing
+
+	delayvariable = 0 
+	time.sleep(0.2)
+	delayvariable = 1
+	time.sleep(0.2)
+
+
+#	if abs(int(stickvalue) - recentvalue) < 10:
+#		SetAngle(recentvalue)
+	if delayvariable==1:
+		SetAngle(int(stickvalue / 2.83))   
+
+
 #SetAngle(int(last["ABS_Z"]))
  #   print("My angle is " + str(int(last["ABS_Z"])))
 
