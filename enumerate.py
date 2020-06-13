@@ -58,15 +58,14 @@ for event in gamepad.read_loop():
         absevent = categorize(event) 
         if ecodes.bytype[absevent.event.type][absevent.event.code] == 'ABS_Z': 
             last["ABS_Z"] = absevent.event.value
-
-        if last["ABS_Z"] > deadr: #and eventcounter % 5 == 0: 
+	
+        if last["ABS_Z"] > deadr: #and eventcounter % 4 == 0: 
             print last["ABS_Z"] 
 # set a new angle
         elif last["ABS_Z"] < deadl: #and eventcounter % 5 == 0: 
             print last["ABS_Z"]
 # set a new angle
 	stickvalue = (int(last["ABS_Z"]))
-	if delayvariable==5:
-		SetAngle(int(stickvalue / 2.83))   
+	SetAngle(int(stickvalue / 2.83))   
 
 GPIO.cleanup()
