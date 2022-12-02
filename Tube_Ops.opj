@@ -1,0 +1,151 @@
+(ExpressProject "Tube_Ops"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2019 S028 (4018475)  [3/9/2022]-[12/02/22]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\library1.olb"
+        (Type "Schematic Library"))
+      (File
+         "c:\cadence\spb_17.4\tools\capture\library\pspice\tubes\library1.olb"
+        (Type "Schematic Library")))
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\tube_ops.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (File ".\tube_ops-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile ".\tube_ops-pspicefiles\schematic1\radiowav.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\tube_ops-pspicefiles\schematic1\radiowav.sim"
+        (DisplayName "SCHEMATIC1-RadioWav")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File "C:\Cadence\SPB_17.4\tools\capture\library\pspice\Tubes\Tube2.olb"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "C:\Cadence\SPB_17.4\tools\capture\library\pspice\Tubes\Tube2.olb")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (Folder "Logs")
+  (PartMRUSelector
+    (VSIN
+      (FullPartName "VSIN.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (POWER_XFRMR
+      (FullPartName "POWER_XFRMR.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\TUBE.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (6U8T
+      (FullPartName "6U8T.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\TUBES\6U8LIB.OLB")
+      (DeviceIndex "0"))
+    (6AN8T
+      (FullPartName "6AN8T.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\TUBE.OLB")
+      (DeviceIndex "0"))
+    (2A3
+      (FullPartName "2A3.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\TUBES\TUBE.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (uPC842
+      (FullPartName "uPC842.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\JOPAMP.OLB")
+      (DeviceIndex "0"))
+    (1437
+      (FullPartName "1437.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ADVANLS\OPA.OLB")
+      (DeviceIndex "0"))
+    (VPWL_FILE
+      (FullPartName "VPWL_FILE.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (mii66193
+      (FullPartName "mii66193.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\MII_OPTO.OLB")
+      (DeviceIndex "0"))
+    (T6421B
+      (FullPartName "T6421B.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\THYRISTR.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "Cayden_S")
+  (LastUsedLibraryBrowseDirectory
+     "C:\Cadence\SPB_17.4\tools\capture\library\pspice")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "c:\users\cayden_s\documents\orcad ops\tube_ops.dsn")
+      (Path "Design Resources"
+         "c:\users\cayden_s\documents\orcad ops\tube_ops.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "c:\users\cayden_s\documents\orcad ops\library1.olb")
+      (Path "Design Resources" "Library"
+         "c:\cadence\spb_17.4\tools\capture\library\pspice\tubes\library1.olb")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Model Libraries")
+      (Path "PSpice Resources" "Simulation Profiles")
+      (Select "Design Resources" "Library"
+         "c:\cadence\spb_17.4\tools\capture\library\pspice\tubes\library1.olb"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 544"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 5 24 5 878 24 585")
+        (Scroll "-52 0")
+        (Zoom "76")
+        (Occurrence "/"))
+      (Path "C:\USERS\CAYDEN_S\DOCUMENTS\ORCAD OPS\TUBE_OPS.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))
