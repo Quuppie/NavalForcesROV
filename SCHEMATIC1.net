@@ -1,0 +1,13 @@
+* source TUBE_OPS
+X_U1         N01372 N01292 N01426 6U8T
+C_C1         N02389 N01292  10p  TC=0,0 
+R_R1         0 N01292  1.2k TC=0,0 
+R_R2         0 N01372  3.3k TC=0,0 
+C_C2         N01364 N01372  10n  TC=0,0 
+R_R3         N01426 N01474  100k TC=0,0 
+C_C3         0 N01426  470p  TC=0,0 
+C_C4         N01426 0  0.01m  TC=0,0 
+V_V1         N01474 0 150Vdc
+V_BFO         N01364 0  AC 1
++SIN 0 1 120 0 0 0
+V_V2         N02389 0 10Vdc
