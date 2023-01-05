@@ -1,0 +1,9 @@
+STATUS: PSpice Schematics to Capture translator (17.4.0.d001)
+STATUS:  
+STATUS: Translator started at Thursday, December 01, 2022 07:52:33
+INFO(ORSCH-1029): Using existing library 'C:\Cadence\SPB_17.4\tools\Capture\Library\PSpice\modeled.etc'.
+INFO(ORSCH-1029): Using existing library 'C:\Cadence\SPB_17.4\tools\pspice\library\Tubemods\Tube.olb'.
+INFO(ORSCH-1029): Using existing library 'C:\Users\Cayden_S\Documents\Tubemods\trio300B-PSpiceFiles\TRIO300B.olb'.
+INFO(ORSCH-1029): Using existing library 'C:\Cadence\SPB_17.4\tools\capture\library\pspice\Tubes\TUBE.OLB'.
+STATUS: Translator stopped at Thursday, December 01, 2022 07:54:27
+STATUS: 0 Error messages, 0 Warning messages

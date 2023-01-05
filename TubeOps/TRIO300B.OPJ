@@ -1,0 +1,55 @@
+(ExpressProject "TRIO300B"
+  (SoftwareVersion "17.4-2019 S028 (4018475)  [3/9/2022]-[12/01/22]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\TRIO300B.DSN"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Hier_Format "FALSE")
+    (PSPICE_Make_Dot_Param_Global "FALSE")
+    (PSPICE_Alt_Template "PSpiceTemplate")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "61215"))
+  (Folder "Layout")
+  (Folder "Outputs")
+  (Folder "Translator"
+    (File ".\trio300b-pspicefiles\trio300b.err"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User))
+    (Folder "Simulation Profiles"
+      (ActiveProfile ".\trio300b-pspicefiles\trio300b\dc.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\trio300b-pspicefiles\trio300b\dc.sim"
+        (DisplayName "TRIO300B-DC")
+        (Type "PSpice Profile"))))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Users\Cayden_S\Documents\Tubemods\TRIO300B.DSN")
+      (Path "Design Resources"
+         "C:\Users\Cayden_S\Documents\Tubemods\TRIO300B.DSN" "TRIO300B")
+      (Path "Translator")
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Simulation Profiles")
+      (Select "Design Resources"
+         "C:\Users\Cayden_S\Documents\Tubemods\TRIO300B.DSN" "TRIO300B" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 744 0 557"))
+      (Tab 0)))
+  (Folder "Logs")
+  (MPSSessionName "Cayden_S")
+  (PartMRUSelector))

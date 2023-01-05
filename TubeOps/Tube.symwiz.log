@@ -1,0 +1,29 @@
+STATUS: PSpice Model Import Wizard for "Capture" (17.4.0.d001)
+STATUS:  
+   INFO: LIB driven flow
+   INFO: Input File: C:\Cadence\SPB_17.4\tools\pspice\library\Tubemods\Tube.lib
+   INFO: Output File: C:\Cadence\SPB_17.4\tools\pspice\library\Tubemods\Tube.olb
+STATUS:  
+STATUS: Identifying matching symbols automatically...started at Thursday, December 01, 2022 07:52:33
+STATUS:  
+   INFO: Symbol "6550" already exists for model "6550".
+   INFO: Symbol "EL34" already exists for model "EL34".
+   INFO: Symbol "12AX7" already exists for model "12AX7".
+   INFO: Symbol "12AU7" already exists for model "12AU7".
+   INFO: Symbol "6AN8T" already exists for model "6AN8T".
+   INFO: Symbol "6AN8P" already exists for model "6AN8P".
+   INFO: Symbol "2A3" already exists for model "2A3".
+   INFO: Symbol "300B" already exists for model "300B".
+   INFO: Symbol "6C33C" already exists for model "6C33C".
+   INFO: Symbol "12AT7" already exists for model "12AT7".
+   INFO: Symbol "6DJ8" already exists for model "6DJ8".
+   INFO: Symbol "6L6GC" already exists for model "6L6GC".
+   INFO: Symbol "KT88" already exists for model "KT88".
+   INFO: Symbol "PAT-4006-CFB" already exists for model "PAT-4006-CFB".
+   INFO: Symbol "DYNA_OUTPUT_XFRMR" already exists for model "DYNA_OUTPUT_XFRMR".
+   INFO: Symbol "D1N5292" already exists for model "D1N5292".
+   INFO: Symbol "D1N5295" already exists for model "D1N5295".
+STATUS:  
+STATUS: Completed identifying matching symbols automatically...at Thursday, December 01, 2022 07:52:33
+STATUS:  
+STATUS: 0 Error messages, 0 Warning messages
