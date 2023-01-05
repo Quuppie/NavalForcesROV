@@ -1,0 +1,7 @@
+STATUS: PSpice Model Import Wizard for "Capture" (17.4.0.d001)
+STATUS:  
+   INFO: OLB driven flow
+   INFO: Input File: C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\TUBES\TUBE.OLB
+   INFO: Symbol Name: 6U8T
+  ERROR: Symbol "6U8T" not found in symbol library "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\TUBES\TUBE.OLB".
+STATUS: 1 Error messages, 0 Warning messages

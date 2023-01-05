@@ -1,0 +1,8 @@
+STATUS: PSpice Schematics to Capture translator (17.4.0.d001)
+STATUS:  
+STATUS: Translator started at Friday, December 02, 2022 06:18:28
+INFO(ORSCH-1029): Using existing library 'C:\Cadence\SPB_17.4\tools\Capture\Library\PSpice\modeled.etc'.
+INFO(ORSCH-1029): Using existing library 'C:\Cadence\SPB_17.4\tools\capture\library\pspice\Tubes\6U8Lib.olb'.
+INFO(ORSCH-1029): Using existing library 'C:\Cadence\SPB_17.4\tools\capture\library\pspice\Tubes\TUBE.OLB'.
+STATUS: Translator stopped at Friday, December 02, 2022 06:19:23
+STATUS: 0 Error messages, 0 Warning messages

@@ -1,0 +1,14 @@
+STATUS: PSpice Model Import Wizard for "Capture" (17.4.0.d001)
+STATUS:  
+   INFO: LIB driven flow
+   INFO: Input File: C:\Cadence\SPB_17.4\tools\capture\library\pspice\Tubes\6U8Lib.lib
+   INFO: Output File: C:\Cadence\SPB_17.4\tools\capture\library\pspice\Tubes\6U8Lib.olb
+STATUS:  
+STATUS: Identifying matching symbols automatically...started at Friday, December 02, 2022 06:18:28
+STATUS:  
+   INFO: Symbol "6U8T" already exists for model "6U8T".
+STATUS:  
+STATUS: Completed identifying matching symbols automatically...at Friday, December 02, 2022 06:18:28
+STATUS:  
+   INFO: Symbol "6U8T" updated for model "6U8T".
+STATUS: 0 Error messages, 0 Warning messages
